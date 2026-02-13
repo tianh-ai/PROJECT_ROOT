@@ -44,6 +44,21 @@ PROJECT_ROOT/
 2. 遵循 `RULES/LLM_CHECKLIST.md` 中的检查清单
 3. 重要变更记录到 `RULES/CHANGE_LOG.md`
 
+## 🤖 Agent Skills
+
+本项目启用了 Agent Skills 系统，可在 VSCode Copilot 中使用 `$skill-name` 调用专业能力：
+
+- 📋 查看 [AGENTS.md](AGENTS.md) 了解可用的 skills
+- 📚 阅读 [SKILL_GUIDE.md](SKILL_GUIDE.md) 学习如何创建和使用 skills
+- 🔧 使用 `$agent-check` 执行计划验证流程
+- 📦 使用 `$skill-installer` 列出可安装的 skills
+- ✨ 使用 `$skill-creator` 创建新的 skill
+
+**示例**:
+```
+请用 $agent-check 检查并执行 plan.json
+```
+
 ## 📜 规则
 
 - **META 目录**：冻结区，非特殊情况不可修改
